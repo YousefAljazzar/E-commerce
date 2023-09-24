@@ -10,7 +10,18 @@ export const GlobalStyle = createGlobalStyle`
     body {
       margin: 0;
     }
-    
+    img{
+      max-width: 100%;
+    }
+  li{
+    list-style: none;
+
+  }
+  
+    a{
+      text-decoration: none;
+      color: #000;
+    }
 `
 
 export const theme = {
@@ -28,6 +39,11 @@ export const FlexBox = styled.div`
 export const FlexColum = styled(FlexBox)`  
     flex-direction: column;
 `
+export const Container= styled.div`
+margin: 0 auto;
+width: 80%;
+`
+
 
 export const Typography = styled.p`
     font-size: ${props => props.fontSize}px;
