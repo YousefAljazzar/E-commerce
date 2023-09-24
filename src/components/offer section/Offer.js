@@ -9,7 +9,7 @@ function Offer({handelShow}) {
           <StyledOfferText>
               70% off storewide — Limited time
           </StyledOfferText>
-            <Typography onClick={handelShow}>
+            <Typography onClick={handelShow}> 
             <FaTimes/>
             </Typography>
 
