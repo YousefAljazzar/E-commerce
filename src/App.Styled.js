@@ -14,7 +14,19 @@ export const GlobalStyle = createGlobalStyle`
       font-size: 45px;
     }
     
-`;
+    img{
+      max-width: 100%;
+    }
+  li{
+    list-style: none;
+
+  }
+  
+    a{
+      text-decoration: none;
+      color: #000;
+    }
+`
 
 export const theme = {
   pallete: {
@@ -27,9 +39,14 @@ export const FlexBox = styled.div`
   display: flex;
 `;
 
-export const FlexColum = styled(FlexBox)`
-  flex-direction: column;
-`;
+export const FlexColum = styled(FlexBox)`  
+    flex-direction: column;
+`
+export const Container= styled.div`
+margin: 0 auto;
+width: 80%;
+`
+
 
 export const Typography = styled.p`
   font-size: ${(props) => props.fontSize}px;
