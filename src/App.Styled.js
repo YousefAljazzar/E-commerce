@@ -39,4 +39,5 @@ export const Typography = styled.p`
 
 export const Image = styled.img`
   width: 100%;
+  max-width: 100%;
 `;
