@@ -14,6 +14,4 @@ export const HeroDiv = styled(FlexColum)`
   justify-content: flex-start;
   justify-content: center;
 `;
-export const HeroContent = styled.div`
-  padding: 15px;
-`;
+export const HeroContent = styled.div``;

@@ -40,6 +40,8 @@ export const theme = {
 
 export const FlexBox = styled.div`
   display: flex;
+  justify-content: ${(props) => props.justify};
+  align-items: ${(props) => props.items};
 `;
 
 export const FlexColum = styled(FlexBox)`
@@ -55,6 +57,7 @@ export const Typography = styled.p`
   font-weight: ${(props) => props.fontWeight};
   color: ${(props) => props.color};
   margin-left: ${(props) => props.marginLeft};
+  width: ${(props) => props.width};
 `;
 
 export const Image = styled.img`
