@@ -1,0 +1,34 @@
+.swiper-button-prev,
+.swiper-button-next {
+  color: #121212;
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  padding: 20px;
+}
+.swiper-pagination-bullet-active {
+  background: cadetblue;
+}
+.pagination-container {
+  position: relative;
+}
+
+.body-new {
+  width: 100%;
+  background: #e9e7e7;
+  margin: 80px 0px;
+}
+
+.icon {
+  font-size: 25px;
+  padding-left: 5px;
+}
+
+.input-email {
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  width: 80%;
+}
+.margin-Icons {
+  margin-left: 10px;
+}

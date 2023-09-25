@@ -12,7 +12,6 @@ import {
 } from "./nav.styled";
 import image from "../asets/Branding.png"; // Use default import syntax for images
 import { FaSistrix, FaUser, FaBagShopping } from "react-icons/fa6";
-import { FlexBox } from "../App.Styled";
 
 function Navbar() {
   return (
@@ -26,26 +25,32 @@ function Navbar() {
 
             <UnOrder>
               <ListUl>
-                <a href="#">Home</a>
+                <a href="asd" alt="">
+                  Home
+                </a>
               </ListUl>
               <ListUl>
-                <a href="#">Product</a>
+                <a href="asd" alt="">
+                  Product
+                </a>
               </ListUl>
               <ListUl>
-                <a href="#">Category</a>
+                <a href="asd" alt="">
+                  Category
+                </a>
               </ListUl>
             </UnOrder>
 
             <FlexBoxitem>
-              <a href="#">
+              <a href="asd" alt="">
                 <FaSistrix />
               </a>
-              <a href="#">
+              <a href="asd" alt="">
                 <FaUser />
               </a>
 
               <IconBag>
-                <a href="#">
+                <a href="asd" alt="">
                   <FaBagShopping />
                 </a>
                 <Number>2</Number>
