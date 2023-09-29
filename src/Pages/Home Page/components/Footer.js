@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Typography } from "../../App.Styled";
+import { Container, Typography } from "../../../App.Styled";
 import {
   StyledAboutUs,
   StyledCurrncy,
@@ -18,7 +18,7 @@ import { FaRegFlag } from "react-icons/fa";
 import { FaArrowDown } from "react-icons/fa";
 import { MdKeyboardArrowDown } from "react-icons/md";
 
-import "./style.css";
+import "../style.css";
 function Footer() {
   return (
     <Container>

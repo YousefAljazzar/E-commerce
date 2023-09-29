@@ -1,6 +1,6 @@
 import React from "react";
-import { Container, FlexColum, Typography } from "../../App.Styled";
-import "./style.css";
+import { Container, Typography } from "../../../App.Styled";
+import "../style.css";
 import { FaRegEnvelope } from "react-icons/fa";
 import { StyledEmailWrapper, StyledNewsletter } from "./Newsletter.Styled";
 

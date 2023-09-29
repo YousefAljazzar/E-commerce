@@ -1,8 +1,8 @@
 import React from "react";
-import { Container, FlexBox, Typography } from "../../App.Styled";
-import { StyledButton } from "../../components/button/Button.Styled";
-import { StyledProductImage } from "./Home.Styled";
-import Image from "../../assits/Pasteimage.png";
+import { Container, FlexBox, Typography } from "../../../App.Styled";
+import { StyledButton } from "../../../components/button/Button.Styled";
+import { StyledProductImage } from "../Home.Styled";
+import Image from "../../../assits/Pasteimage.png";
 import { TrandingDiv, TrandingImageWrapper } from "./Tranding.Styled";
 function Tranding() {
   return (
@@ -20,7 +20,9 @@ function Tranding() {
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
             quae.
           </Typography>
-          <StyledButton backGround="#121212">See Collections</StyledButton>
+          <StyledButton backGround="#121212" width="25%">
+            See Collections
+          </StyledButton>
         </TrandingDiv>
         <TrandingImageWrapper width="50%">
           <StyledProductImage src={Image} width="70%" />

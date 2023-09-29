@@ -1,16 +1,15 @@
 import React from "react";
-import Navbar from "../../navbar/nav";
 import Hero from "../../components/hero secation/Hero";
-import Latest from "./Latest";
-import Tranding from "./Tranding";
-import Newsletter from "./Newsletter";
-import Instgram from "./Instgram";
-import Footer from "./Footer";
+
+import Footer from "./components/Footer";
+import Latest from "./components/Latest";
+import Newsletter from "./components/Newsletter";
+import Tranding from "./components/Tranding";
+import Instgram from "./components/Instgram";
 
 function HomePage() {
   return (
     <>
-      <Navbar />
       <Hero />
       <Latest />
       <Tranding />

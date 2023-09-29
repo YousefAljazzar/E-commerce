@@ -8,9 +8,6 @@
 .swiper-pagination-bullet-active {
   background: cadetblue;
 }
-.pagination-container {
-  position: relative;
-}
 
 .body-new {
   width: 100%;
@@ -31,4 +28,9 @@
 }
 .margin-Icons {
   margin-left: 10px;
+}
+@media (max-width: 768px) {
+  .my-swiper .swiper-slide {
+    width: 80% !important;
+  }
 }

@@ -1,0 +1,42 @@
+.MuiTypography-subtitle1 {
+  width: 70%;
+  padding: 15px 0px;
+}
+.MuiTypography-h4 {
+  padding-top: 20px;
+}
+.swiper {
+  width: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+}
+
+.mySwiper2 {
+  box-sizing: border-box;
+  width: 48%;
+  margin: 0px;
+}
+
+.mySwiper2 .swiper-slide {
+  width: 100% !important;
+  height: 50vh;
+}
+.mySwiper2 .swiper-slide img {
+  width: 100% !important;
+}
+.mySwiper {
+  box-sizing: border-box;
+  width: 48%;
+  margin: 0px;
+}
+.mySwiper .swiper-slide {
+  width: 24% !important;
+  height: 50vh;
+  opacity: 0.4;
+}
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}

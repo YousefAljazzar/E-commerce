@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { FlexColum } from "../../App.Styled";
+import { FlexBox, FlexColum } from "../../../App.Styled";
 
 export const TrandingDiv = styled(FlexColum)`
   width: ${(props) => props.width};

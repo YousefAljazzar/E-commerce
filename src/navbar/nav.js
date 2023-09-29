@@ -12,6 +12,7 @@ import {
 } from "./nav.styled";
 import image from "../asets/Branding.png"; // Use default import syntax for images
 import { FaSistrix, FaUser, FaBagShopping } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -20,24 +21,19 @@ function Navbar() {
         <ContainerNav>
           <Navitembar>
             <Icons>
-              <img src={image} alt="this is icon" />
+              <Link to="/">
+                <img src={image} alt="this is icon" />
+              </Link>
             </Icons>
-
             <UnOrder>
               <ListUl>
-                <a href="asd" alt="">
-                  Home
-                </a>
+                <Link to="/">Home</Link>
               </ListUl>
               <ListUl>
-                <a href="asd" alt="">
-                  Product
-                </a>
+                <Link to="cloth">Proudct</Link>
               </ListUl>
               <ListUl>
-                <a href="asd" alt="">
-                  Category
-                </a>
+                <Link to="cloth">Category</Link>
               </ListUl>
             </UnOrder>
 

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { FlexBox, FlexColum } from "../../App.Styled";
+import { FlexBox, FlexColum } from "../../../App.Styled";
 
 export const StyledFooter = styled(FlexBox)`
   margin: 50px 0;
