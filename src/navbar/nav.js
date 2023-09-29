@@ -10,7 +10,7 @@ import {
   Number,
   UnOrder,
 } from "./nav.styled";
-import image from "../asets/Branding.png"; // Use default import syntax for images
+import image from "../assits/Branding.png"; // Use default import syntax for images
 import { FaSistrix, FaUser, FaBagShopping } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
